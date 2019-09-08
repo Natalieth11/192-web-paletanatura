@@ -1,0 +1,91 @@
+.header__logo img{
+width: 60px;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    background: gray;
+}
+
+.header{
+    background:white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.header a{
+    color: black;
+    text-decoration: none;
+}
+
+.menu a{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    padding: 10px 8px;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+
+}
+
+.menu a:hover{
+    background: #F5821F;
+}
+
+/*-----------------BANNER----------------------*/
+
+.banner{
+    padding-top: 60px; 
+}
+
+.banner h2 {
+    position: absolute;
+    top: 50%;
+    left: 54%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 100%;
+    color: white;
+}
+
+/*como es que pongo propiedade s a dos clases?*/
+.banner__txt{
+    position: absolute;
+    top: 60%;
+    left: 54%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 100%;
+    color: white;
+}
+
+/*-------------PRIMERA SECCION---------*/
+
+.intro-text{
+    width: 30%;
+    opacity: 0%;
+    transform: translate(20px);
+    transition: 0.5s all ease-in-out;
+}
+
+.intro-appear{
+    opacity: 1;
+    transform: translate(0);
+}
+
+
+
+
+
+
+
+
+
+    
