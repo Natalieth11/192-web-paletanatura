@@ -1,90 +1,199 @@
-.header__logo img{
-width: 60px;
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Work+Sans:600&display=swap');
+
+h1, h2, h3 {
+    font-family: 'Work Sans', sans-serif;
 }
 
-body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+body {
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
-    background: gray;
 }
+
+.logo img {
+    display: block;
+    width: 60px;
+    margin: 5px;
+    margin-left: 18px;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+}
+/*---------------Estilos del header-----------------------*/
 
 .header{
-    background:white;
-    color: black;
+    height: 60px;
+}
+
+.header .container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 30px;
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
 }
 
-.header a{
-    color: black;
-    text-decoration: none;
+
+.icon-menu {
+    display: block;
+    width: 25px;
+    height: 25px;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 16px;
+    margin-right: 10px;
 }
 
-.menu a{
-    margin: 0;
-    padding: 0;
+/*---------------Estilos del nav----------------*/
+
+.main-nav {
+    position: absolute;
+    top: 60px;
+    left:-100%;
+    width: 100%;
+    transition: all 0.4s;
+}
+
+.menu {
     list-style: none;
-    display: inline-block;
-    padding: 10px 8px;
-    transition: all 0.4s linear;
-    border-radius: 5px;
+    padding: 0;
+    margin: 0;
+}
+
+.menu__link {
+    display: block;
+    padding: 20px;
+    background: white;
+    text-decoration: none;
+    color: black;
 
 }
 
-.menu a:hover{
-    background: #F5821F;
+.menu__link:hover {
+    background: #FBA919;
+    color: white;
 }
 
-/*-----------------BANNER----------------------*/
-
-.banner{
-    padding-top: 60px; 
+.show {
+    left: 0;
 }
 
-.banner h2 {
+
+/*----------------Estilos del banner-----------------*/
+
+.banner {
+}
+
+.banner .container {
     position: absolute;
     top: 50%;
-    left: 54%;
+    left: 50%;
     transform: translateX(-50%) translateY(-50%);
     width: 100%;
     color: white;
+    /*text-align: center;*/
 }
 
-/*como es que pongo propiedade s a dos clases?*/
-.banner__txt{
-    position: absolute;
-    top: 60%;
-    left: 54%;
-    transform: translateX(-50%) translateY(-50%);
-    width: 100%;
-    color: white;
+.banner__txt {
+    text-align: left;
+    margin-left: 30px;
+    width: 55%;
 }
 
-/*-------------PRIMERA SECCION---------*/
-
-.intro-text{
-    width: 30%;
-    opacity: 0%;
-    transform: translate(20px);
-    transition: 0.5s all ease-in-out;
+.banner__title {
+    text-align: left;
+    margin-left: 30px;
 }
 
-.intro-appear{
-    opacity: 1;
-    transform: translate(0);
+/*---------------Estilos de las caracteristicas---------------*/
+
+.info__column {
+    background: #FBA919;
+    color:white;
+    padding: 20px;
+    margin-bottom: 30px;
 }
 
+/*---------------Estilos del footer---------------*/
+.footer {
+    background: #F6C8B1;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
 
+.footer .social a {
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+}
+/*---------------Estilos responsive---------------*/
 
+@media(min-width:700px){
 
+    .logo img {
+        width: 68px;
+        margin: 5px;
+        margin-left: 10px;
+    }
 
+    .banner__title {
+        font-size: 38px;
+        margin-left: 30px;
+    }
 
+    .banner__txt {
+        font-size: 18px;
+        max-resolution: 7px 0;
+    }
+
+    .info {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .info__column {
+        width: 27%;
+    }
+
+    .footer .social a {
+        margin: 0 10px;
+    }
+
+}
+
+@media(min-width:1024px){
+    .main-nav {
+        position: static;
+        width: auto;
+    }
+
+    .menu {
+        display: flex;
+    }
+
+    .icon-menu {
+        display: none;
+    }
+  
+    .menu__link:hover {
+        color:#FBA919;
+        background: none;
+    }
+    .container {
+        margin: auto;
+        width: 1000px;
+    }
+}
+
+@media(min-width:1280px){
+
+    .container {
+        margin: auto;
+        width: 1100px;
+    }
+
+}
 
 
 
