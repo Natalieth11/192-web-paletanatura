@@ -85,7 +85,7 @@ body {
 
 .banner .container {
     position: absolute;
-    top: 50%;
+    top: 31%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     width: 100%;
@@ -96,7 +96,8 @@ body {
 .banner__txt {
     text-align: left;
     margin-left: 30px;
-    width: 55%;
+    width: 50%;
+    font-size: 13px;
 }
 
 .banner__title {
@@ -104,13 +105,31 @@ body {
     margin-left: 30px;
 }
 
+.banner img {
+    width: 100%; 
+}
+
 /*---------------Estilos de las caracteristicas---------------*/
+
 
 .info__column {
     background: #FBA919;
     color:white;
     padding: 20px;
     margin-bottom: 30px;
+}
+
+.info__img {
+    width: 100%;
+}
+
+.info__title {
+    text-align: center;
+
+}
+
+.info__txt {
+    text-align: center;
 }
 
 /*---------------Estilos del footer---------------*/
@@ -138,8 +157,18 @@ body {
     }
 
     .banner__title {
-        font-size: 38px;
+        font-size: 35px;
         margin-left: 30px;
+        margin-top: 0%;; 
+    }
+
+    .banner .container {
+        position: absolute;
+        top: 37%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        width: 100%;
+        color: white; 
     }
 
     .banner__txt {
