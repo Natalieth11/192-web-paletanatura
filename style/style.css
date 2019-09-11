@@ -150,18 +150,20 @@ body {
     align-items: center;
     text-align: center;
     background-color:#FBA919;
+    
+ 
+
 }
 
-.letf {
+.left{
     height: 100%;
-    background-image: url("imagenes/planta.jpg");
+    background-image: url(../imagenes/CrueltyFree.jpg);
 }
 
 
 .right {
     margin: 22px;
-    padding: 25px 40px;
-
+    padding: 0px 40px;
 }
 
 .newsletter h2 {
