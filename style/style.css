@@ -202,6 +202,36 @@ body {
     text-align: center;
 }
 
+/*---------------Estilos de las Especificaciones del producto---------------*/
+
+.section__title {
+    text-align: center;
+    font-size: 40px;
+    color: #FBA919;
+}
+
+
+.specifications__column {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.specifications__description {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    width: 68%;
+    height: 100%;
+    padding: 5px;
+}
+
+.specifications__title {
+    font-size: 25px;
+    margin: 5px 0;
+
+}
 
 
 /*---------------Estilos del footer---------------*/
@@ -210,6 +240,7 @@ body {
     color: black;
     padding: 10px;
     text-align: center;
+    margin-top: 20px;
 }
 
 .footer .social a {
@@ -248,7 +279,7 @@ body {
         max-resolution: 7px 0;
     }
 
-    .info {
+    .info{
         display: flex;
         justify-content: space-between;
     }
@@ -260,6 +291,23 @@ body {
     .footer .social a {
         margin: 0 10px;
     }
+
+    .specifications {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .section__title{
+        width: 100%;
+    }
+
+    .specifications__column{
+        /*width: 40%;*/
+    }
+
+
+
 
 }
 
@@ -285,6 +333,8 @@ body {
         margin: auto;
         width: 1000px;
     }
+
+
 }
 
 @media(min-width:1280px){
