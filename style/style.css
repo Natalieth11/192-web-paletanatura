@@ -200,7 +200,7 @@ body {
 }
 
 .btn-newsletter{
-    width: 50%;
+
     padding: 0.5rem 1rem;
     font-size: 1.1rem;
     background-color: white;
@@ -208,6 +208,7 @@ body {
     outline: none;
     border: none;
     text-align: center;
+
 }
 
 /*---------------Estilos de las Especificaciones del producto---------------*/
@@ -246,12 +247,34 @@ body {
     margin-left: 10px;
 }
 
-/*---------------Estilos del la interaccio---------------*/
+/*---------------Estilos del la interaccion---------------*/
+.interation {
+    display: block;
+    justify-content: center;
+    margin: 20px;
+    margin-bottom: 50px;
+}
+
+.interation img{
+    margin: 50px auto;
+    margin-bottom: 20px;
+    justify-content: center;
+    display: block;
+}
 
 .interation button {
     background: none;
     border: none;
-    background-image: url("./imagenes/planta.jpg");
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    background-color: #F6C8B1;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.button-area {
+    text-align: center;
 }
 
 /*---------------Estilos del footer---------------*/
