@@ -85,7 +85,7 @@ body {
 
 .banner .container {
     position: absolute;
-    top: 31%;
+    top: 20%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     width: 100%;
@@ -95,14 +95,18 @@ body {
 
 .banner__txt {
     text-align: left;
-    margin-left: 30px;
-    width: 50%;
+    /*margin-left: 30px;
+    width: 50%;*/
     font-size: 13px;
+    text-align: center;
 }
 
 .banner__title {
     text-align: left;
     margin-left: 30px;
+    text-align: center;
+    top: 100px;
+    margin-top: 0px;
 }
 
 .banner img {
@@ -112,9 +116,13 @@ body {
 /*---------------Estilos de las caracteristicas---------------*/
 
 
+.characteristics {
+    margin-top: 50px;
+}
+
 .info__column {
-    background: #FBA919;
-    color:white;
+    /*background: #FBA919;*/
+    color:black;
     padding: 20px;
     margin-bottom: 30px;
 }
@@ -149,7 +157,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color:#FBA919;
+    background-color:#F6C8B1;
     
  
 
@@ -233,6 +241,13 @@ body {
 
 }
 
+/*---------------Estilos del la interaccio---------------*/
+
+.interation button {
+    background: none;
+    border: none;
+    background-image: url("./imagenes/planta.jpg");
+}
 
 /*---------------Estilos del footer---------------*/
 .footer {
