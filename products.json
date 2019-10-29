@@ -1,0 +1,35 @@
+[
+    {"name":"Pestañina aquarela",
+        "details":"30 ml",
+        "price":54000,
+        "discount":0.1,
+        "description":"Pestañina Multimascara Tint negra a prueba de agua. No tóxica. Para una mirada impactante y hasta con el doble volúmen.",
+        "product for":"female",
+        "popularity":1
+    },
+    {"name":"Sombras mate",
+        "price":49000,
+        "discount":0.25,
+        "description":"Seis sombras para ojos de colores vibrantes y efecto mate.",
+        "product for":"female",
+        "popularity":20
+    },
+    {"name":"Labial Nude",
+        "details":"10 ml",
+        "price":38000,
+        "description":"Labial cremoso duración 24 horas.",
+        "product for":"female",
+        "popularity":8,
+        "shiping":"free"
+    },
+    {"name":"Jabón líquido",
+        "details":"120 ml",
+        "price":49000,
+        "description":"El mejor producto para la ducha. Deja una piel suave y sedosa por 24 horas.",
+        "product for":"female",
+        "popularity":19
+    },
+    {
+
+    }
+]
