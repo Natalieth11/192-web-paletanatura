@@ -1,10 +1,14 @@
 {{#each products}}
 
-{{!-- aqui va el card (div) del producto, solo lo maqueto una vez --}}
+{{!-- aqui va el card (div) del producto, solo lo maqueto una vez. cuando se entra a la vista de un solo producto ya no es each es {{product.name}} --}}
 
 <p>{{name}}</p>
+<p>{{price}}</p>
+<p>{{details}}</p>
+<p>{{discount}}</p>
+<img src="{{image}}" alt=""> {{!-- aqui poner un <a></a> para que lleve a pagina del producto --}}
+
 
 {{/each}}
-
 
 <script src="/scripts/products.js"></script>
