@@ -7,5 +7,20 @@ function createRoutes (app, db) {
         console.log('alguien entró a la ruta inicial');
         response.sendFile(__dirname + '/public/index.html');
     });
+
+    app.get('/productos', (request, response) => {
+        const products = db.collection('products');
+
+        //buscamos todos los productos
+        products.find({})
+            //transformamos el cursor a una arreglo
+            .toArray((err, result) => {
+                //aseguramos de que no hay error
+                assert.equal(null, err);
+                var context={products:result}
+
+                response.render('products',context);
+            });
+    });
 }
 module.exports = createRoutes;

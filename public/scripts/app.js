@@ -1,22 +1,28 @@
-var btnMenu = document.querySelector('.icon-menu');
-var nav = document.querySelector('.main-nav');
+window.addEventListener('load', function(){ 
+    var btnMenu = document.querySelector('.icon-menu');
+    var nav = document.querySelector('.main-nav');
+    
+    btnMenu.addEventListener('click', function(){
+        nav.classList.toggle('show');
+    })
+    
+    /*-------------------interaccion simple------------------ */
+    
+    var img =document.getElementById("img-area")
+    function sin(){
+        img.src='./imagenes/no-makeup.jpg';
+    }
+    
+    
+    function con(){
+        img.src='./imagenes/makeup.jpg';
+    
+    }
+    
+ });
 
-btnMenu.addEventListener('click', function(){
-    nav.classList.toggle('show');
-})
-
-/*-------------------interaccion simple------------------ */
-
-var img =document.getElementById("img-area")
-function sin(){
-    img.src='./imagenes/no-makeup.jpg';
-}
 
 
-function con(){
-    img.src='./imagenes/makeup.jpg';
-
-}
 
 
 

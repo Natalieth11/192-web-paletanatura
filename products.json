@@ -5,14 +5,16 @@
         "discount":0.1,
         "description":"Pestañina Multimascara Tint negra a prueba de agua. No tóxica. Para una mirada impactante y hasta con el doble volúmen.",
         "product for":"female",
-        "popularity":1
+        "popularity":1,
+        "image": "imagenes/pestanina.jpg"
     },
     {"name":"Sombras mate",
         "price":49000,
         "discount":0.25,
         "description":"Seis sombras para ojos de colores vibrantes y efecto mate.",
         "product for":"female",
-        "popularity":20
+        "popularity":20,
+        "image":"sombras.jpg"
     },
     {"name":"Labial Nude",
         "details":"10 ml",
@@ -20,16 +22,87 @@
         "description":"Labial cremoso duración 24 horas.",
         "product for":"female",
         "popularity":8,
-        "shiping":"free"
+        "shiping":"free",
+        "image":"imagenes/labial.jpg"
     },
     {"name":"Jabón líquido",
         "details":"120 ml",
         "price":49000,
         "description":"El mejor producto para la ducha. Deja una piel suave y sedosa por 24 horas.",
         "product for":"female",
-        "popularity":19
+        "popularity":19,
+        "image":"imagenes/jabon_liquido.jpg"
     },
-    {
+    {"name":"Shampoo Homem",
+        "details":"300 ml",
+        "price":34000,
+        "discount":0.1,
+        "description":"Shampoo anticaspa para hombre, previene la caída del cabello y la oleosidad.",
+        "product for":"male",
+        "popularity":40,
+        "image":"imagenes/shampoo_men.jpg"
+    },
+    {"name":"Loción femenina Ekos",
+        "details":"120 ml",
+        "price":136000,
+        "description":"loción Ekos fragancia a acai. Intensidad media. Duración 12 horas.",
+        "product for":"female",
+        "popularity":11,
+        "shiping":"free",
+        "image":"imagenes/locion_ekos.jpg"
+    },
+    {"name":"Loción hombre Kaiak",
+        "details":"120 ml",
+        "price":146000,
+        "discount":0.25,
+        "description":"Fragancia masculina. Aroma intenso que dura por 24 horas.",
+        "product for":"male",
+        "popularity":40,
+        "image":"imagenes/locion_men.jpg"
+    },
+    { "name":"Labial Una",
+        "details":"8 ml",
+        "price":32000,
+        "description":"Labial líquido brillante. Duración 12 horas para un acabado luminoso.",
+        "product for":"female",
+        "popularity":30,
+        "shiping":"free",
+        "image":"imagenes/labiales.jpg"
+    },
+    {"name":"Pestañina incolora",
+        "details":"10 ml",
+        "price":14000,
+        "description":"Labial líquido brillante. Duración 12 horas para un acabado luminoso.",
+        "product for":"female",
+        "popularity":5,
+        "shiping":"free",
+        "image":"imagenes/pestanina_nocolor.jpg"
 
+    },
+    {"name":"Labial vino tinto",
+        "details":"30 ml",
+        "price":28000,
+        "description":"Labial en barra color vino tinto. Acabado cremoso y suave que dura todo el día. FPS 15.",
+        "product for":"female",
+        "popularity":9,
+        "image":"imagenes/labial_rojo.jpg"
+    },
+    {"name":"Brocha dúo",
+        "price":39000,
+        "description":"Brocha para base y rubor. Textura aterciopelada para un contacto con el rostro que no irite.",
+        "product for":"female",
+        "popularity":14,
+        "shiping":"free",
+        "image":"imagenes/brocha.jpg"
+
+    },
+    {"name":"Base serum",
+        "details":"30 ml",
+        "price":56000,
+        "discount":0.10,
+        "description":"Base serum líquida. FPS 18. Para todo tipo de piel. Acabado mate y suave.",
+        "product for":"female",
+        "popularity":6,
+        "image":"imagenes/base_serum.jpg"
     }
 ]
