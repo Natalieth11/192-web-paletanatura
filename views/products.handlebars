@@ -1,14 +1,30 @@
+
+<div class="container">
 {{#each products}}
 
 {{!-- aqui va el card (div) del producto, solo lo maqueto una vez. cuando se entra a la vista de un solo producto ya no es each es {{product.name}} --}}
 
-<p>{{name}}</p>
+
+<div class="card">
+    <img src="{{image}}" alt="" class="image_product">
+    {{!-- <a class="image_product" href="#"> <img src="{{image}}" alt="logo"></a> --}}
+    <h2 class="title_product">{{name}}</h2>
+    <p class="description_product">{{description}}</p>
+    <p class="price_product">{{price}}</p>
+    <p class="details_product">{{details}}</p>
+    <p class="discount_product">{{discount}}</p>
+    <button class="btn_product">Comprar</button>
+</div>
+
+
+{{!-- <p>{{name}}</p>
 <p>{{price}}</p>
 <p>{{details}}</p>
 <p>{{discount}}</p>
-<img src="{{image}}" alt=""> {{!-- aqui poner un <a></a> para que lleve a pagina del producto --}}
+<img src="{{image}}" alt="">  --}}
+{{!-- aqui poner un <a></a> para que lleve a pagina del producto --}}
 
 
 {{/each}}
-
+</div>
 <script src="/scripts/products.js"></script>
