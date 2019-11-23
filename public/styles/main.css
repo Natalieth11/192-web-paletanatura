@@ -1,0 +1,29 @@
+/*---------------Estilos del header-----------------------*/
+
+
+.header{
+    height: 60px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.icon-menu {
+    display: block;
+    width: 25px;
+    height: 25px;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 16px;
+    margin-right: 10px;
+}
+
+/*---------------Estilos del nav----------------*/
+
+
+/*----------------Estilos del banner-----------------*/
+

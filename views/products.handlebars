@@ -1,4 +1,4 @@
-
+<link rel="stylesheet" href="/styles/styleproducts.css">
 <div class="container">
 {{#each products}}
 
@@ -13,7 +13,18 @@
     <p class="price_product">{{price}}</p>
     <p class="details_product">{{details}}</p>
     <p class="discount_product">{{discount}}</p>
-    <button class="btn_product">Comprar</button>
+    <button class="btn_product addtocart" data-name="{{this._id}}">Comprar
+      
+    </button>
+    
+    
+
+        {{!-- <a class="image_product" href="/producto/{{name}}"> 
+      <img src="{{image}}" alt="logo">
+    </a>
+    <a href="/producto/{{name}}">
+      <h2 class="title_product">{{name}}</h2>
+    </a> --}}
 </div>
 
 
