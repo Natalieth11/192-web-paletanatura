@@ -24,19 +24,13 @@ const assert = require('assert');
 const createRoutes = require('./routes.js');
 
 //Connection URL
-const url = 'mongodb+srv://cluster0-0bbjo.mongodb.net/tienda?retryWrites=true&w=majority';
+const url = 'mongodb+srv://Natalieth:mona8110@cluster0-0bbjo.mongodb.net/tienda?retryWrites=true&w=majority';
 
 // Database Name
 const dbName = 'store';
 
 // Create a new MongoClient
-const client = new MongoClient(url,{
-    auth: {
-        user: 'Natalieth',
-        password: 'mona8110'
-    }
-
-},);
+const client = new MongoClient(url)
 
 //conectarse al cliente
 client.connect(function(err) {
