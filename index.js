@@ -24,21 +24,28 @@ const assert = require('assert');
 const createRoutes = require('./routes.js');
 
 //Connection URL
-const url = 'mongodb://localhost:27017';
+const url = 'mongodb+srv://cluster0-0bbjo.mongodb.net/tienda?retryWrites=true&w=majority';
 
 // Database Name
 const dbName = 'store';
 
 // Create a new MongoClient
-const client = new MongoClient(url);
+const client = new MongoClient(url,{
+    auth: {
+        user: 'Natalieth',
+        password: 'mona8110'
+    }
+
+},);
 
 //conectarse al cliente
 client.connect(function(err) {
+
     assert.equal(null, err);
     console.log("Connected successfully to server");
     
     //le dice que se conecte a la base de datos que ya creamos
-    const db = client.db(dbName);
+    const db = client.db('tienda');
     
     
     //products es el nombre de la colección en la base de datos, debe llamarse igual 
@@ -52,6 +59,6 @@ app.use(express.static('public'));
 
 
 
-app.listen(port, () => {
+app.listen(process.env.PORT || port, () => {
     console.log(`Servidor iniciado en el puerto ${port}`);
 });
