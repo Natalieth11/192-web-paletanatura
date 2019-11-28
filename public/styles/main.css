@@ -3,6 +3,8 @@
 
 .header{
     height: 60px;
+    background: white;
+    
 }
 
 .header .container {
@@ -10,19 +12,41 @@
     justify-content: space-between;
 }
 
+/*---------------Estilos del nav----------------*/
 
-.icon-menu {
-    display: block;
-    width: 25px;
-    height: 25px;
-    font-size: 30px;
-    text-align: center;
-    cursor: pointer;
-    margin-top: 16px;
-    margin-right: 10px;
+.logo img {
+    width: 60px;
+    margin: 5px;
+    margin-left: 40px;
 }
 
-/*---------------Estilos del nav----------------*/
+.menu {
+    display:flex;
+    list-style: none;
+    margin-right: 40px;
+   
+}
+
+.menu img{
+    top: 15px;
+
+}
+
+.menu__link {
+    color: #ED6D00;
+    text-decoration: none;
+    padding: 20px;
+}
+
+
+.menu__link:hover {
+    color: black;
+}
+
+.shopping_counter {
+    color: black;
+    font-size: 60px;
+}
 
 
 /*----------------Estilos del banner-----------------*/

@@ -1,9 +1,10 @@
-/* body {
-    background: blueviolet;
-} */
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Work+Sans:600&display=swap');
+body {
+    margin: 0;
+}
 
-/* estilos del card de productos */
 
+/*------------------- estilos del card de productos--------------- */
 .container{
     display: flex;
     flex-direction: row;
@@ -19,17 +20,22 @@
     width: 250px;
     height: 450px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
     
 }
 
 .image_product{
 width: 200px;
 height: 200px;
+display: block;
+margin: auto;
+
 
 }
 
 .title_product{
     text-align: center;
+    color: #303030;
 }
 
 .btn_product{
@@ -40,4 +46,61 @@ height: 200px;
     outline: none;
     border: none;
     text-align: center;
+    border-radius: 4px;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    position: absolute;
+    margin-left: 65px;
+}
+
+.btn_product:hover {
+    background-color: #DB6500;
+}
+
+.description_product {
+    /* font-family: Work Sans;
+font-style: normal;
+font-weight: 300; */
+}
+
+/*----------------Estilos del banner-----------------*/
+
+.banner {
+    margin-bottom: 60px;
+}
+
+
+.banner .container {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: white;
+    /*text-align: center;*/
+
+}
+
+.banner__txt {
+    text-align: left;
+    /*margin-left: 30px;
+    width: 50%;*/
+    font-size: 13px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #ED6D00;
+
+
+}
+
+.banner__title {
+    text-align: left;
+    margin-left: 30px;
+    text-align: center;
+    top: 100px;
+    margin-top: 0px;
+    font-size: 30px;
+}
+
+.banner img {
+    width: 100%; 
 }
