@@ -3,7 +3,7 @@
         "details":"30 ml",
         "price":54000,
         "discount":0.1,
-        "description":"Pestañina Multimascara Tint negra a prueba de agua. No tóxica. Para una mirada impactante y hasta con el doble volúmen.",
+        "description":"Pestañina Multimascara Tint negra a prueba de agua. No tóxica. ",
         "product for":"female",
         "popularity":1,
         "image": "imagenes/pestanina.jpg"
@@ -37,7 +37,7 @@
         "details":"300 ml",
         "price":34000,
         "discount":0.1,
-        "description":"Shampoo anticaspa para hombre, previene la caída del cabello y la oleosidad.",
+        "description":"Shampoo anticaspa para hombre, previene la caída del cabello.",
         "product for":"male",
         "popularity":40,
         "image":"imagenes/shampoo_men.jpg"
@@ -104,5 +104,79 @@
         "product for":"female",
         "popularity":6,
         "image":"imagenes/base_serum.jpg"
+    },
+    {"name":"Crema de Limón",
+        "details":"400 ml",
+        "price":56000,
+        "discount":0.12,
+        "description":"Higrata y perfuma tu piel",
+        "product for":"female",
+        "popularity":6,
+        "image":"imagenes/crema.jpg"
+    },
+    {"name":"Pulpa para manos",
+        "price":39000,
+        "description":"Crema hidratante pulpa para manos, fragancia castaña.",
+        "product for":"female",
+        "popularity":14,
+        "shiping":"free",
+        "image":"imagenes/pulpa.jpg"
+
+    },
+    {"name":"Desodorante",
+        "details":"30 ml",
+        "price":56000,
+        "discount":0.10,
+        "description":"Desodorante antitranspirante sin aroma.",
+        "product for":"female",
+        "popularity":6,
+        "image":"imagenes/desodorante.jpg"
+    },
+    {"name":"Delineador",
+        "details":"12 ml",
+        "price":28000,
+        "description":"Delineador líquido negro para ojos.",
+        "product for":"female",
+        "popularity":9,
+        "image":"imagenes/delineador.jpg"
+    },
+    {"name":"Lápiz para ojos",
+        "details":"10 ml",
+        "price":14000,
+        "description":"Lápiz Faces negro para ojos y cejas.",
+        "product for":"female",
+        "popularity":5,
+        "shiping":"free",
+        "image":"imagenes/lapiz.jpg"
+
+    },
+    {"name":"Rubor Faces",
+        "details":"10 ml",
+        "price":29000,
+        "description":"Rubor tono rosado, acabado mate.",
+        "product for":"female",
+        "popularity":5,
+        "shiping":"free",
+        "image":"imagenes/rubor.jpg"
+
+    },
+    { "name":"Polvos",
+        "details":"8 ml",
+        "price":45000,
+        "description":"Polvos compactos Faces tono medio.",
+        "product for":"female",
+        "popularity":30,
+        "shiping":"free",
+        "image":"imagenes/polvos.png"
+    },
+
+    { "name":"Bloqueador",
+        "details":"30 ml",
+        "price":32000,
+        "description":"Crema protectora contra el sol, no brillo.",
+        "product for":"female",
+        "popularity":30,
+        "shiping":"free",
+        "image":"imagenes/bloqueador.jpg"
     }
 ]

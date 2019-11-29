@@ -1,9 +1,17 @@
 <div class="products">
+    {{#each products}}
 
-{{#each products}}
+    <div class="theproduct">
 
-{{!-- aqui debo poner como quiero que se vea la lista --}}
-<h2>{{name}}</h2>
-</a>
+        <a href="/producto/{{name}}">
+    
+        </a>
+        <a href="/producto/{{name}}">
+        <h2><{{name}}/h2>
+        </a>
 
+
+    </div>
+
+    {{/each}}
 </div>

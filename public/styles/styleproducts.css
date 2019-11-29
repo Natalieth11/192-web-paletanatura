@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Work+Sans:600&display=swap');
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 body {
     margin: 0;
 }
@@ -61,12 +62,23 @@ margin: auto;
     /* font-family: Work Sans;
 font-style: normal;
 font-weight: 300; */
+
+}
+
+.price_product {
+    color: #ED6D00;
+    font-family: sans-serif;
 }
 
 /*----------------Estilos del banner-----------------*/
 
 .banner {
     margin-bottom: 60px;
+    padding-top: 60px;
+}
+
+.aaa{
+    width: 50px;
 }
 
 
@@ -103,4 +115,106 @@ font-weight: 300; */
 
 .banner img {
     width: 100%; 
+}
+
+/* -------------filtro de productos ----------------*/
+
+.container_filter {
+    display: flex;
+    flex-direction: row;
+    background-color: #ED6D00;
+    justify-content: space-around;
+    margin: 30px;
+    padding: 10px;
+    margin-bottom: 60px;
+    color: white;
+    border-radius: 6px;
+    padding-bottom: 18px;
+    font-family: sans-serif;
+}
+
+.title_filter {
+    font-size: 20px;
+}
+
+label {
+    padding-left: 1.3em;
+    padding-right: 14px;
+    position: relative;
+}
+
+label:before {
+    content: ' ';
+    border: solid 1px #ffffff;
+    border-radius: 3px;
+    width: 0.8em;
+    height: 0.8em;
+    position: absolute;
+    left: 0px;
+    top: 0.1em;
+    transition: all 0.2s;
+    transform: rotate(0deg);
+}
+
+[type="checkbox"]:checked+label:before {
+    border-color: #ffffff;
+    color: #ffffff;
+    content: '\f00c';
+    font-family: FontAwesome;
+    transform: rotate(360deg);
+}
+
+[type="checkbox"] {
+    display: none;
+}
+
+/* estilos de la vista de cada producto al entrar */
+
+.container_viewproducts {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 60px;
+    padding: 20px;
+    padding-top: 60px;
+
+}
+
+.each_image_product {
+
+    width: 100%;
+
+}
+
+.each_title_product {
+
+    font-size: 40px;
+    color: #ED6D00;
+
+}
+
+.each_description {
+    font-family: sans-serif;
+}
+
+.btn_each {
+    padding: 0.8rem 2rem;
+    font-size: 1.1rem;
+    background-color:#EC6D00;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    text-align: center;
+    border-radius: 4px;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    position: absolute;
+    margin-left: 65px;
+    transition: all 0.4s linear;
+}
+
+.btn_each:hover {
+    background-color: #DB6500;
 }

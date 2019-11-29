@@ -1,33 +1,73 @@
 <link rel="stylesheet" href="/styles/styleproducts.css">
 
 {{!-- AQUIIIIIIIIIIIII PONGO EL BANNER --}}
-    <div class="banner">
-        <img src="imagenes/banner_products.jpg" alt="" class="banner__img">
-        <div class="container">
-            <h2 class="banner__title">Comprar nunca fue tan fácil</h2>
-            <p class="banner__txt">  Encuentra los mejores productos a un solo click  </p>
-            
-        </div>
+<div class="banner">
+    <img src="imagenes/banner_products.jpg" alt="" class="banner__img">
+    <div class="container">
+        <h2 class="banner__title">Comprar nunca fue tan fácil</h2>
+        <p class="banner__txt"> Encuentra los mejores productos a un solo click </p>
+
     </div>
+</div>
+
+{{!-- container de filtro y de ordenar --}}
+
+<div class="container_filter">
+    {{!-- Filtro de productos --}}
+
+    <div class="filter">
+
+        
+        <p class="title_filter">Filtrar por:</p>
+        <input type="checkbox" name="" id="envio">
+        <label for="envio">Con envío gratis</label>
+
+        <input type="checkbox" name="" id="genero">
+        <label for="genero">Productos femeninos</label>
+
+        <input type="checkbox" name="" id="descuento">
+        <label for="descuento">Productos en descuento</label>
+    </div>
+
+    {{!-- Ordenar productos --}}
+
+    <div class="order">
+
+        <p class="title_filter">Ordenar por:</p>
+        <input type="checkbox" name="" id="mayor">
+        <label for="mayor">De mayor a menor precio</label>
+
+        <input type="checkbox" name="" id="popularidad">
+        <label for="popularidad">Por popularidad</label>
+
+        <input type="checkbox" name="" id="alfabeticamente">
+        <label for="alfabeticamente">Alfabéticamente</label>
+        
+
+    </div>
+
+</div>
+
 <div class="container">
-{{#each products}}
+    {{#each products}}
 
-{{!-- aqui va el card (div) del producto, solo lo maqueto una vez. cuando se entra a la vista de un solo producto ya no es each es {{product.name}} --}}
+    {{!-- aqui va el card (div) del producto, solo lo maqueto una vez. cuando se entra a la vista de un solo producto ya no es each es {{product.name}} --}}
 
 
-<div class="card">
-    <img src="{{image}}" alt="" class="image_product">
-    {{!-- <a class="image_product" href="#"> <img src="{{image}}" alt="logo"></a> --}}
-    <h2 class="title_product">{{name}}</h2>
-    <p class="description_product">{{description}}</p>
-    <p class="price_product">{{price}}</p>
-    <p class="details_product">{{details}}</p>
-    <p class="discount_product">{{discount}}</p>
-    <button class="btn_product addtocart" data-name="{{this._id}}">Comprar
-      
-    </button>
-    
-    
+    <div class="card">
+        {{!-- <a class="" href="viewproduct.handlebars"> <img class="image_product" src="{{image}}" alt="logo"></a> --}}
+        <a href="/producto/{{name}}"> <img class="image_product" src="{{image}}" alt="logo"></a>
+
+        <h2 class="title_product">{{name}}</h2>
+        <p class="description_product">{{description}}</p>
+        <b class="price_product">${{price}}</b>
+        <p class="details_product">{{details}}</p>
+        <p class="discount_product">{{discount}}</p>
+        <button class="btn_product addtocart" data-name="{{this._id}}">Comprar
+
+        </button>
+
+
 
         {{!-- <a class="image_product" href="/producto/{{name}}"> 
       <img src="{{image}}" alt="logo">
@@ -35,17 +75,17 @@
     <a href="/producto/{{name}}">
       <h2 class="title_product">{{name}}</h2>
     </a> --}}
-</div>
+    </div>
 
 
-{{!-- <p>{{name}}</p>
+    {{!-- <p>{{name}}</p>
 <p>{{price}}</p>
 <p>{{details}}</p>
 <p>{{discount}}</p>
 <img src="{{image}}" alt="">  --}}
-{{!-- aqui poner un <a></a> para que lleve a pagina del producto --}}
+    {{!-- aqui poner un <a></a> para que lleve a pagina del producto --}}
 
 
-{{/each}}
+    {{/each}}
 </div>
-<script src="/scripts/products.js"></script>
+<script src="/scripts/pruducts.js"></script>

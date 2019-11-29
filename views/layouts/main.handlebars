@@ -1,5 +1,6 @@
-   <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,26 +8,37 @@
     <link rel="stylesheet" href="/styles/main.css">
     <title>Natura</title>
 </head>
-   {{!-- aqui maqueto lo que va en todo, el footer, el nav, mi banner --}}
-    <header class="header">
-        <div class="container">
-            <a class="logo" href="#"> <img src="https://i.pinimg.com/originals/18/17/1d/18171d20150839b70aadbbf4fcbcfa31.png" alt="logo"></a>
-            {{!-- <img class="icon-menu" src="imagenes/icon_burger.png" alt="icon"> --}}
-            <nav class="main-nav">
-                <ul class="menu">
-                    <li class="menu__item"> <a class="menu__link" href="/productos">Productos</a></li>
-                    <li class="menu__item"> <a class="menu__link" href="">Revista</a></li>
-                    <li class="menu__item"> <a class="menu__link" href="">Sobre nosotros</a></li>
-                    <li class="menu__item"> <a class="menu__link" href="">Soy consultora</a></li>
+{{!-- aqui maqueto lo que va en todo, el footer, el nav, mi banner --}}
+<header class="header">
+    <div class="container">
+        <a class="logo" href="#"> <img
+                src="https://i.pinimg.com/originals/18/17/1d/18171d20150839b70aadbbf4fcbcfa31.png" alt="logo"></a>
+        {{!-- <img class="icon-menu" src="imagenes/icon_burger.png" alt="icon"> --}}
+        <nav class="main-nav">
+            <ul class="menu">
+                <li class="menu__item"> <a class="menu__link" href="/productos">Productos</a></li>
+                <li class="menu__item"> <a class="menu__link" href="">Revista</a></li>
+                <li class="menu__item"> <a class="menu__link" href="">Sobre nosotros</a></li>
+                <li class="menu__item"> <a class="menu__link" href="">Soy consultora</a></li>
+
+                <div class="carrito">
                     <a href="carrito" class="mainheader__item">
                         <img src="/imagenes/carrito.png" alt="">
-                        <p class="shopping_counter"></p>
                     </a>
-                </ul> 
-            </nav>
-        </div>
-    </header>
-    {{!-- <div class="banner">
+                    <p class="shopping_counter"></p>
+                </div>
+
+                {{!-- <a href="carrito" class="mainheader__item">
+                        <img src="/imagenes/carrito.png" alt="">
+                        <p class="shopping_counter"></p>
+                    </a> --}}
+    </div>
+
+    </ul>
+    </nav>
+    </div>
+</header>
+{{!-- <div class="banner">
         <img src="imagenes/banner-natura.jpg" alt="" class="banner__img">
         <div class="container">
             <h2 class="banner__title">Maxxi palette glow</h2>
@@ -39,11 +51,19 @@
 
 {{!-- despues de aca coloco el footer --}}
 
+<footer class="footer">
+    <div class="social">
+        <a class="icon-social" href="#"><img src="/imagenes/facebook.png" alt="icon"></a>
+        <a class="icon-social" href="#"><img src="/imagenes/instagram.png" alt="icon"></a>
+        <a class="icon-social" href="#"><img src="/imagenes/pinterest.png" alt="icon"></a>
+    </div>
+    <p class="rights">&copy; Natura 2019 - Todos los derechos reservados.</p>
+
+</footer>
 
 
 
 
-
-    <script src="/scripts/pruducts.js"></script>
-    <script src="/scripts/app.js"></script>
-    <script src="/scripts/updateCart.js"></script>
+<script src="/scripts/updateCart.js"></script>
+<script src="/scripts/pruducts.js"></script>
+<script src="/scripts/app.js"></script>

@@ -1,0 +1,34 @@
+{{!-- vista de cada producto --}}
+<link rel="stylesheet" href="/styles/styleproducts.css">
+
+
+<div class="container_viewproducts">
+
+    <div class="each_image_product">
+
+        <img src="{{product.image}}" alt="">
+
+    
+        
+
+    </div>
+    <div class="each_text_product">
+
+        <b class="each_title_product">{{product.name}}</b>
+        <p class="each_description">{{product.description}}</p>
+        
+        <b class="price_product">${{product.price}}</b>
+        <p >{{product.popularity}}</p>
+        <p>{{product.shiping}}</p>
+        <p>{{product.details}}</p>
+        <p>{{product.discount}}</p>
+
+        <button class="btn_each" data-name="{{this._id}}">Comprar</button>
+
+    </div>
+
+</div>
+
+
+
+

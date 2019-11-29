@@ -89,5 +89,24 @@ function createRoutes (app, db) {
 
     // para ir a la vista del producto
 
+    app.get('/producto/:name', (request, response) => {
+        // response.send("Cada producto");
+        
+        const products = db.collection('products');
+        console.log('Alguien entró a cada producto');
+
+        products.find({ name: request.params.name }).toArray((err, result) => {
+
+            //aseguramos de que no hay error
+            assert.equal(null, err);
+
+            var context = {
+                product: result[0]
+            };
+            response.render('viewproduct',context);
+        });
+
+    });
+
 }
 module.exports = createRoutes;
