@@ -6,7 +6,7 @@
         "description":"Pestañina Multimascara Tint negra a prueba de agua. No tóxica. ",
         "product for":"female",
         "popularity":1,
-        "image": "imagenes/pestanina.jpg"
+        "image": "/imagenes/pestanina.jpg"
     },
     {"name":"Sombras mate",
         "price":49000,
@@ -14,7 +14,7 @@
         "description":"Seis sombras para ojos de colores vibrantes y efecto mate.",
         "product for":"female",
         "popularity":20,
-        "image":"imagenes/sombras.jpg"
+        "image":"/imagenes/sombras.jpg"
     },
     {"name":"Labial Nude",
         "details":"10 ml",
@@ -23,7 +23,7 @@
         "product for":"female",
         "popularity":8,
         "shiping":"free",
-        "image":"imagenes/labial.jpg"
+        "image":"/imagenes/labial.jpg"
     },
     {"name":"Jabón líquido",
         "details":"120 ml",
@@ -31,7 +31,7 @@
         "description":"El mejor producto para la ducha. Deja una piel suave y sedosa por 24 horas.",
         "product for":"female",
         "popularity":19,
-        "image":"imagenes/jabon_liquido.jpg"
+        "image":"/imagenes/jabon_liquido.jpg"
     },
     {"name":"Shampoo Homem",
         "details":"300 ml",
@@ -40,7 +40,7 @@
         "description":"Shampoo anticaspa para hombre, previene la caída del cabello.",
         "product for":"male",
         "popularity":40,
-        "image":"imagenes/shampoo_men.jpg"
+        "image":"/imagenes/shampoo_men.jpg"
     },
     {"name":"Loción femenina Ekos",
         "details":"120 ml",
@@ -49,7 +49,7 @@
         "product for":"female",
         "popularity":11,
         "shiping":"free",
-        "image":"imagenes/locion_ekos.jpg"
+        "image":"/imagenes/locion_ekos.jpg"
     },
     {"name":"Loción hombre Kaiak",
         "details":"120 ml",
@@ -58,7 +58,7 @@
         "description":"Fragancia masculina. Aroma intenso que dura por 24 horas.",
         "product for":"male",
         "popularity":40,
-        "image":"imagenes/locion_men.jpg"
+        "image":"/imagenes/locion_men.jpg"
     },
     { "name":"Labial Una",
         "details":"8 ml",
@@ -67,7 +67,7 @@
         "product for":"female",
         "popularity":30,
         "shiping":"free",
-        "image":"imagenes/labiales.png"
+        "image":"/imagenes/labiales.png"
     },
     {"name":"Pestañina incolora",
         "details":"10 ml",
@@ -76,7 +76,7 @@
         "product for":"female",
         "popularity":5,
         "shiping":"free",
-        "image":"imagenes/pestanina_nocolor.jpg"
+        "image":"/imagenes/pestanina_nocolor.jpg"
 
     },
     {"name":"Labial vino tinto",
@@ -85,7 +85,7 @@
         "description":"Labial en barra color vino tinto. Acabado cremoso y suave que dura todo el día. FPS 15.",
         "product for":"female",
         "popularity":9,
-        "image":"imagenes/labial_rojo.jpg"
+        "image":"/imagenes/labial_rojo.jpg"
     },
     {"name":"Brocha dúo",
         "price":39000,
@@ -93,7 +93,7 @@
         "product for":"female",
         "popularity":14,
         "shiping":"free",
-        "image":"imagenes/brocha.jpg"
+        "image":"/imagenes/brocha.jpg"
 
     },
     {"name":"Base serum",
@@ -103,7 +103,7 @@
         "description":"Base serum líquida. FPS 18. Para todo tipo de piel. Acabado mate y suave.",
         "product for":"female",
         "popularity":6,
-        "image":"imagenes/base_serum.jpg"
+        "image":"/imagenes/base_serum.jpg"
     },
     {"name":"Crema de Limón",
         "details":"400 ml",
@@ -112,7 +112,7 @@
         "description":"Higrata y perfuma tu piel",
         "product for":"female",
         "popularity":6,
-        "image":"imagenes/crema.jpg"
+        "image":"/imagenes/crema.jpg"
     },
     {"name":"Pulpa para manos",
         "price":39000,
@@ -120,7 +120,7 @@
         "product for":"female",
         "popularity":14,
         "shiping":"free",
-        "image":"imagenes/pulpa.jpg"
+        "image":"/imagenes/pulpa.jpg"
 
     },
     {"name":"Desodorante",
@@ -130,7 +130,7 @@
         "description":"Desodorante antitranspirante sin aroma.",
         "product for":"female",
         "popularity":6,
-        "image":"imagenes/desodorante.jpg"
+        "image":"/imagenes/desodorante.jpg"
     },
     {"name":"Delineador",
         "details":"12 ml",
@@ -138,7 +138,7 @@
         "description":"Delineador líquido negro para ojos.",
         "product for":"female",
         "popularity":9,
-        "image":"imagenes/delineador.jpg"
+        "image":"/imagenes/delineador.jpg"
     },
     {"name":"Lápiz para ojos",
         "details":"10 ml",
@@ -147,7 +147,7 @@
         "product for":"female",
         "popularity":5,
         "shiping":"free",
-        "image":"imagenes/lapiz.jpg"
+        "image":"/imagenes/lapiz.jpg"
 
     },
     {"name":"Rubor Faces",
@@ -157,7 +157,7 @@
         "product for":"female",
         "popularity":5,
         "shiping":"free",
-        "image":"imagenes/rubor.jpg"
+        "image":"/imagenes/rubor.jpg"
 
     },
     { "name":"Polvos",
@@ -167,7 +167,7 @@
         "product for":"female",
         "popularity":30,
         "shiping":"free",
-        "image":"imagenes/polvos.png"
+        "image":"/imagenes/polvos.png"
     },
 
     { "name":"Bloqueador",
@@ -177,6 +177,6 @@
         "product for":"female",
         "popularity":30,
         "shiping":"free",
-        "image":"imagenes/bloqueador.jpg"
+        "image":"/imagenes/bloqueador.jpg"
     }
 ]
